@@ -1,3 +1,4 @@
+apt install yum
 yum -y install wget net-tools vim
 mkdir /root/v2ray
 cd /root/v2ray
