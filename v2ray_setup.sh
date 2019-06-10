@@ -6,3 +6,5 @@ wget https://install.direct/go.sh
 chmod +x ./go.sh
 ./go.sh
 cp /etc/v2ray/config.json /etc/v2ray/config.json.origin
+cp /root/starnight/config.json /etc/v2ray/config.json
+systemctl start v2ray
